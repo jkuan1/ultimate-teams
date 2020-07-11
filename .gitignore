@@ -60,3 +60,6 @@ jest_coverage
 
 # CocoaPods
 /ios/Pods/
+
+# other stuff
+sample.js
