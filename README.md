@@ -1,25 +1,26 @@
 ## Getting Started
 
+#### Pre-reqs
+If on windows run PowerShell in admin mode and install chocolatey (package manager for windows) and yarn (package manager for code)
+```bash
+# https://chocolatey.org/docs/installation 
+# https://classic.yarnpkg.com/en/docs/install/#windows-stable
+
+
+```
+
 #### 1. Clone and Install
 
 ```bash
 # Clone the repo
+git clone https://github.com/jkuan1/ultimate-teams.git
 
-# Navigate to clonned folder and Install dependencies
-cd react-native-starter && yarn install
+# Navigate to cloned folder and install dependencies
+cd ultimate-teams
+yarn install
 
-# Install Pods
-cd ios && pod install
-```
+#### 2. Open Ultimate Teams in your simulator
 
-#### 2. Open RNS in your iOS simulator
-
-Run this command to start the development server and to start your app on iOS simulator:
-```
-yarn run:ios
-```
-
-Or, if you prefer Android:
 ```
 yarn run:android
 ```
